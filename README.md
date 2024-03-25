@@ -1,7 +1,7 @@
 # MCFEND
 This repository houses resources and materials associated with the research paper titled "MCFEND: A Multi-source Benchmark Dataset for Chinese Fake News Detection," presented at the ACM Web Conference 2024 (WWW' 2024). 
 
-The dataset is openly accessible for academic and research purposes through [Google Drive](https://drive.google.com/drive/folders/1tflhQTkMT_gTTwEw3ESfKS7Sr5w__5u5?usp=sharing).
+The dataset is openly accessible for academic and research purposes through [Our Website](https://trustworthycomp.github.io/mcfend/).
 
 
 ## Citation
