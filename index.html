@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="MCFEND Dataset at WWW' 24">
+  <meta name="keywords" content="MCFEND, Fake News Detection">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MCFEND: A Multi-source Benchmark Dataset for Chinese Fake News Detection</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">MCFEND: A Multi-source Benchmark Dataset for Chinese Fake News Detection</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a>Yupeng Li</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a>Haorui He</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+              <a>Jin Bai</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a>Dacheng Wen</a><sup>1,4</sup>
+            </span>
+            <span class="author-block">
+
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Hong Kong Baptist University</span><br>
+            <span class="author-block"><sup>2</sup>The Chinese University of Hong Kong, Shenzhen</span>
+            <span class="author-block"><sup>3</sup>Beijing Normal University-Hong Kong Baptist University United International College</span>
+            <span class="author-block"><sup>4</sup>The University of Hong Kong</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2403.09092"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2403.09092"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://drive.google.com/drive/folders/1tflhQTkMT_gTTwEw3ESfKS7Sr5w__5u5?usp=sharing"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Dataset</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">MCFEND</span>, the initial multi-source Chinese fake news detection dataset, comprises multi-modal content and social context of 23,974 real-world Chinese news pieces collected from diverse sources such as social platforms, messaging apps, and traditional online news outlets.</span>  
+      </h2>
+      <img src="./static/images/example.jpg" class="teaser-image" alt="Teaser image."/>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="subtitle has-text-centered">
+    Fake news originating from diverse sources differs in both <emph>content</emph> and <emph>social context</emph>.
+  </h2>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <!-- Textual. -->
+      <div class="column">
+        <div class="content">
+          <img src="./static/images/embedding.png"
+                class="feature-image"
+                alt="Textual Feature"/>
+          <h5 class="title has-text-centered">Visualization for Textual Feature</h5>
+        </div>
+      </div>
+      <!-- Social Emotion. -->
+      <div class="column">
+        <div class="content">
+          <img src="./static/images/socialemotion.png"
+                class="feature-image"
+                alt="Textual Feature"/>
+          <h5 class="title has-text-centered">Visualization for Social Emotion</h5>
+         </div>
+      </div>
+    </div>
+  </div>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+          The prevalence of fake news across various online sources has had a significant influence on the public. Existing Chinese fake news detection datasets are limited to news sourced solely from Weibo. However, fake news originating from multiple sources exhibits diversity in various aspects, including its content and social context. Methods trained on purely one single news source can hardly be applicable to real-world scenarios. Our pilot experiment demonstrates that the F1 score of the state-of-the-art method that learns from a large Chinese fake news detection dataset, Weibo-21, drops significantly from 0.943 to 0.470 when the test data is changed to multi-source news data, failing to identify more than one-third of the multi-source fake news. 
+        </p>
+          <p>
+          To address this limitation, we constructed the first multi-source benchmark dataset for Chinese fake news detection, termed <span class="dnerf">MCFEND</span>, which is composed of news we collected from diverse sources such as social platforms, messaging apps, and traditional online news outlets. Notably, such news has been fact-checked by 14 authoritative fact-checking agencies worldwide. In addition, various existing Chinese fake news detection methods are thoroughly evaluated on our proposed dataset in cross-source, multi-source, and unseen source ways. MCFEND, as a benchmark dataset, aims to advance Chinese fake news detection approaches in real-world scenarios.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@INPROCEEDINGS{mcfend,
+      title={MCFEND: A Multi-source Benchmark Dataset for Chinese Fake News Detection}, 
+      author={Li, Yupeng and He, Haorui and Bai, Jin and Wen, Dacheng},
+      booktitle={Proc.~of WWW (to apear)}, 
+      year={2024},
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
