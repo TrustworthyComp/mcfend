@@ -11,7 +11,7 @@ We encourage users of this repository or the MCFEND dataset to cite our work in 
 @INPROCEEDINGS{mcfend,
       title={MCFEND: A Multi-source Benchmark Dataset for Chinese Fake News Detection}, 
       author={Li, Yupeng and He, Haorui and Bai, Jin and Wen, Dacheng},
-      booktitle={Proc.~of WWW (to apear)}, 
+      booktitle={Proc.~of WWW}, 
       year={2024},
 }
 ```
